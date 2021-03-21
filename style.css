@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/*Обнуление!*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+:focus, :active {
+  outline: none;
+}
+a:focus, a:active {
+  outline: none;
+}
+nav, footer, header, aside {
+  display: block;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  position: relative;
+}z
+body {
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body.lock {
+  overflow: hidden;
+}
+@media (max-width: 767.98px) {
+  body.lock {
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+  }
+}
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a, a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+@media (max-width: 1112px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992.98px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767.98px) {
+  .container {
+    max-width: none;
+    padding: 0 10px;
+  }
+}
+
+.contant{
+  margin: 0 auto;
+  box-sizing: border-box;
+  
+}
+.container{
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.table{
+    margin: 50px auto;
+    text-align: center;
+    font-size: 90px;
+    color: #333;
+    font-weight: 300;
+    
+    display: table;
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+  }
+  .table__line{
+    display: table-row;
+  }
+  .table__cell{
+    vertical-align: middle;
+    display: table-cell;
+    border: 2px solid #333;
+    width: 33.33%;
+    height: 33.33%;
+  }
+  .button{
+      display: inline-block;
+      padding: 17px 34px;
+      background-color:#960b0b;
+      color: #fff;
+      font-size: 15px;
+      text-transform: uppercase;
+      margin: 0 0 50px 0;
+  }
+  .text{
+      color: #333;
+      font-size: 24px;
+  }
+  
