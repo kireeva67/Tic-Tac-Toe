@@ -38,7 +38,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 body.lock {
   overflow: hidden;
@@ -99,7 +99,6 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 767.98px) {
   .container {
     max-width: none;
-    padding: 0 10px;
   }
 }
 
@@ -109,9 +108,14 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 .container{
-    width: 100%;
+    width: 400px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+@media screen and (max-width: 450px), screen and (max-height: 600px){
+    .container{
+        width: 300px;
+    } 
 }
 .table{
     margin: 50px auto;
