@@ -39,7 +39,7 @@ function win(){
             break;
         }
     }
-    if(isFieldFull()){
+    if(isFieldFull() && moveType !== ''){
         showText('Dead heat!');
     }
 }
