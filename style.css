@@ -123,34 +123,36 @@ h1, h2, h3, h4, h5, h6 {
     width: 400px;
     height: 400px;
     border-collapse: collapse;
-  }
-  @media screen and (max-width: 450px), screen and (max-height: 600px){
-      .table{
+}
+@media screen and (max-width: 450px), screen and (max-height: 600px){
+    .table{
+        font-size: 81px;
         width: 300px;
         height: 300px;
-      }  
+    }  
 }
-  .table__line{
+.table__line{
     display: table-row;
-  }
-  .table__cell{
-    vertical-align: middle;
-    display: table-cell;
-    border: 2px solid #333;
-    width: 33.33%;
-    height: 33.33%;
-  }
-  .button{
-      display: inline-block;
-      padding: 17px 34px;
-      background-color:#960b0b;
-      color: #fff;
-      font-size: 15px;
-      text-transform: uppercase;
-      margin: 0 0 50px 0;
-  }
-  .text{
-      color: #333;
-      font-size: 24px;
-  }
+}
+.table__cell{
+vertical-align: middle;
+display: table-cell;
+border: 2px solid #333;
+width: 33.33%;
+height: 33.33%;
+}
+.button{
+    display: inline-block;
+    padding: 17px 34px;
+    background-color:#960b0b;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0 0 50px 0;
+}
+
+.text{
+    color: #333;
+    font-size: 24px;
+}
   
